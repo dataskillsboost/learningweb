@@ -1,0 +1,3 @@
+Cara menggunakan git
+^ buka git-bash
+^ ketahui lokasi kita berada saat ini dengan --> pwd
