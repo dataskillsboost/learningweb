@@ -29,6 +29,8 @@ Cara menggunakan git
 ^ git remote >> to check the remote
 ^ git remote -v >> to check detail about remoted repo in local
 ^ git config --list >> to check list and username sign in on our local git
+^ mkdir <directory name> >> creating new directory
+^ git remote add origin <url repo in github> >> connecting our local repo to github
 
    
 
