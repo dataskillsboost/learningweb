@@ -1,3 +1,23 @@
 Cara menggunakan git
 ^ buka git-bash
-^ ketahui lokasi kita berada saat ini dengan --> pwd
+^ pwd >> ketahui lokasi kita berada saat ini (print working directory)
+^ ls >> file dan folder apa saja yang ada
+^ clear >> clear all code
+^ cd >> pindah directory (change directory) e.g cd desktop
+^ git init >> membuat folder yang kita masuki menjadi repo di git
+   --> to check, open the file & show hidden file.
+^ git status >> after adding new file or editing file, to see what change in our repo folder
+^ git add <file name full + extention> >> adding to staging area or git add . >> to add all changes
+^ git commit -m <"notes"> >> to commit some changes
+^ git config >> for the first time we commit
+^ [Esc] + :q! >> to exit vim windows
+^ git log >> open all history
+^ git log -- <file name> >> open history specificly for its file
+^ git checkout <5 first of commit code / hash> -- <file name> to restore spesific deleted file
+^ git commit -a -m <"notes"> or git commit -am <"notes"> >> add and commit in 1 command
+^ git brand >> showing all branch active in our repo
+^ git brand <file name> >> creating branch name from master 
+^ git log --all --decorate --oneline --graph >> see all branch line like github
+^ alias graph = "git log --all --decorate --oneline --graph" >> creating alias for calling some command
+^ graph >> calling the alias command created before
+^ git checkout <branch name> >> moving active head to other branch
