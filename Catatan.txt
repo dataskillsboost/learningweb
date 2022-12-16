@@ -10,7 +10,7 @@ Cara menggunakan git
 ^ git add <file name full + extention> >> adding to staging area or git add . >> to add all changes
 ^ git commit -m <"notes"> >> to commit some changes
 ^ git config >> for the first time we commit
-^ [Esc] + :q! >> to exit vim windows
+^ [Esc] + :wq! >> to exit vim windows
 ^ git log >> open all history
 ^ git log -- <file name> >> open history specificly for its file
 ^ git checkout <5 first of commit code / hash> -- <file name> to restore spesific deleted file
@@ -21,3 +21,13 @@ Cara menggunakan git
 ^ alias graph = "git log --all --decorate --oneline --graph" >> creating alias for calling some command
 ^ graph >> calling the alias command created before
 ^ git checkout <branch name> >> moving active head to other branch
+^ git merge <branch name> >> starting with we move our head to master, and enter this code. making our branch in name to merge (fast forward merging)
+   ^ git branch -d <branch name> >> deleting unnesecery branch
+   ^ git branch --merged >> checking what branch merge
+   ^ git branch -D <branch name> >> force delete unmerge branch
+^ git clone <website repo git in github> >> to clone repo github in local
+^ git remote >> to check the remote
+^ git remote -v >> to check detail about remoted repo in local
+
+   
+
