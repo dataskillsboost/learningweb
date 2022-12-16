@@ -28,6 +28,7 @@ Cara menggunakan git
 ^ git clone <website repo git in github> >> to clone repo github in local
 ^ git remote >> to check the remote
 ^ git remote -v >> to check detail about remoted repo in local
+^ git config --list >> to check list and username sign in on our local git
 
    
 
